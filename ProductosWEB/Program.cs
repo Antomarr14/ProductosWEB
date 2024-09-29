@@ -5,6 +5,10 @@ builder.Services.AddScoped<HttpClient>( o =>
 new HttpClient{BaseAddress = new Uri(" http://localhost:5164")});
 
 builder.Services.AddScoped<UsuarioServices>();
+builder.Services.AddScoped<CompraService>();
+builder.Services.AddScoped<LoginService>();
+builder.Services.AddScoped<ArticuloService>();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
