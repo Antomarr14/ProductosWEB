@@ -11,6 +11,7 @@ builder.Services.AddScoped<ArticuloService>();
 builder.Services.AddScoped<UsuarioRolService>();
 builder.Services.AddScoped<RolService>();
 builder.Services.AddScoped<ProveedorService>();
+builder.Services.AddScoped<PrestamoService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
