@@ -10,6 +10,7 @@ builder.Services.AddScoped<LoginService>();
 builder.Services.AddScoped<ArticuloService>();
 builder.Services.AddScoped<UsuarioRolService>();
 builder.Services.AddScoped<RolService>();
+builder.Services.AddScoped<ProveedorService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
